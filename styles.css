@@ -8,13 +8,17 @@ body {
     padding: 10px;
 }
 
+
 h1 {
-    color: #fff;
+    color:black;
     margin: 0;
+    font-size: 96px;
+    font-family: "Playfair Display", serif;
 }
 
+
 p {
-    color: #fff;
+    color:black;
     margin: 0;
 }
 
@@ -22,3 +26,32 @@ i {
     color: #fff;
     font-size: 24px;
 }
+
+.hero{
+    background: #f9f7fe;
+    text-align: center;
+    padding: 160px 160px;
+}
+.hero p{
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: bold;
+    /* background-color: red; */
+    margin: 0;
+}
+.hero h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: normal;
+   line-height: 2;
+   font-size: 24px;
+}
+.btn-branding{
+    background: #6c63ff;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    list-style: 12px;
+    padding: 12px 20px;
+}
+
+
