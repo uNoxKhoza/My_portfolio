@@ -1,0 +1,24 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.d-flex {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    color: #fff;
+    margin: 0;
+}
+
+p {
+    color: #fff;
+    margin: 0;
+}
+
+i {
+    color: #fff;
+    font-size: 24px;
+}
