@@ -5,120 +5,100 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Noxolo Portfolio</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="styles/portfolio.css" />
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ddc3ee268a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+        rel="stylesheet" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="about.html"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Noxolo is a front-end engineer based in Durban, KZN">
+    
+    <title>front-end developer - Noxolo Khoza</title>
+    
 </head>
 
 <body>
     <div class="container">
         <nav class="d-flex justify-content-between">
-            <a href="/" title="Homepage"></a>
-    
-            <img src="images/uNox.jpg" style="width:250px" alt="" />
-            </a>
-            <ul>
-                <li>
-                    <a href="/" title="Homepage">Home</a>
-                </li>
-                <li>
-                    <a href="/about.html" title="Homepage">About </a>
-                </li>
-                <li class="active">
-                    <a href="/work.html" title="Homepage">Work </a>
-                </li>
-                <li>
-                    <a href="/contact.html" title="Homepage">Contacts </a>
-                </li>
-            </ul>
-    </div>
-    
+            <a href="index.html" title="Homepage"></a>
+        
+        <img src="images/uNox.jpg" style="width:250px" alt="Noxolo's image"/>
+        </a>
+        <ul>
+            <li class="active">
+                <a href="index.html" title="Homepage">Home</a>
+            </li>
+            <li>
+            <a href="about.html" title="About Noxolo">About </a>  
+            </li>
+            <li>
+            <a href="work.html" title="Noxolo's work">Work </a> 
+            </li>
+            <li>
+            <a href="contact.html" title="Contact Noxolo">Contacts </a>  
+            </li>
+        </ul>
+    </div>   
     </nav>
-    <div class="hero">
-        <p>👋Hello , I am </p>
-        <h1>Noxolo Khoza</h1>
-        <h2 class="mb-5">Front End Developer based in Durban , KZN</h2>
-        <div>
-            <a href="#" class="btn btn-branding">Contact me</a>
-        </div>
-    </div>
-    <p class="text-center m-5">
-        Featured Project which my best projects be choice to show
-    </p>
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col d-none d-lg-block">
-                <img src="images/simple calculator.jpeg" style="width: 500px;" class="img-fluid" alt="" />
+    <div class="content-container container">
+        <div class="content">
+          <h1 class="mb-5">Take a look at what I've been working on!</h1>
+  
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <img
+                src="images/yogurt.png"
+                class="img-fluid mb-3 rounded"
+                alt=""
+              />
+              <h3 class="text-center m-0">Yogurt Project</h3>
+              <p class="text-center text-muted">Built with HTML and CSS</p>
             </div>
-            <div class="col">
-                <div class="project-desciption">
-                    <h2 class="mb-5">Simple Calculator</h2>
-                    <p class="mb-5 text-muted">
-                        I created a simple web-based calculator using HTML, CSS, and JavaScript. This calculator allows
-                        users to perform basic
-                        arithmetic operations with a clean and intuitive interface. It features a responsive design,
-                        enabling seamless use on
-                        various devices. The "C" button resets the calculator for new inputs, providing a straightforward
-                        and user-friendly
-                        experience. This project serves as an educational tool for understanding fundamental web development
-                        concepts.
+            <div class="col-md-6 mb-4">
+              <img
+                src="images/weather.png"
+                class="img-fluid mb-3 rounded"
+                alt=""
+              />
+              <h3 class="text-center m-0">Weather Project</h3>
+              <p class="text-center text-muted">
+                Built with HTML, CSS and JavaScript
+              </p>
+            </div>
+            <div class="col-md-6 mb-4">
+              <img
+                src="images/dictionary.png"
+                class="img-fluid mb-3 rounded"
+                alt=""
+              />
+              <h3 class="text-center m-0">Dictionary App</h3>
+              <p class="text-center text-muted">
+                Built with HTML, CSS with React
+              </p>
+            </div>
+            <div class="col-md-6 mb-4">
+              <img
+                src="images/translation.png"
+                class="img-fluid mb-3 rounded"
+                alt=""
+              />
+              <h3 class="text-center m-0">Translation App</h3>
+              <p class="text-center text-muted">
+                Built with HTML, CSS with React
+              </p>
+            </div>
+          </div>
     
-                    </p>
-                    <a href="" class="btn btn-branding-outline"> Learn more </a>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col">
-                <div class="project-desciption">
-                    <h2 class="mb-5">Weather App</h2>
-                    <p class="mb-5 text-muted">
-                        I created a user-friendly Weather App using HTML, CSS, and JavaScript. This web-based application
-                        allows users to check
-                        current weather conditions by entering a location. The app fetches real-time data from a weather API
-                        and presents it in
-                        a visually appealing format. Users can easily access details like temperature, humidity, and wind
-                        speed. This project
-                        provides a practical and interactive way for users to stay informed about the weather.
-    
-                    </p>
-                    <a href="" class="btn btn-branding-outline"> Learn more </a>
-                </div>
-            </div>
-            <div class="col d-none d-lg-block">
-                <img src="images/weather.jpg" class="img-fluid " alt="" />
-            </div>
-        </div>
-        <div class="row">
-            <div class="col d-none d-lg-block">
-                <img src="images/job application form.png " style="width: 400px;" class="img-fluid" alt="" />
-            </div>
-            <div class="col">
-                <div class="project-desciption">
-                    <h2 class="mb-5">Job Application Form</h2>
-                    <p class="mb-5 text-muted">
-                        I created a concise web-based Job Application Form using HTML, CSS, and, optionally, JavaScript. The
-                        form allows
-                        applicants to easily submit personal and professional details, fostering a streamlined and
-                        user-friendly application
-                        process. This customizable tool is designed to enhance efficiency for both applicants and recruiters
-                        during the hiring
-                        process.
-                    </p>
-                    <a href="" class="btn btn-branding-outline"> Learn more </a>
-                </div>
+               
             </div>
             <footer>
                 <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
@@ -151,40 +131,11 @@
         </body>
     
         </html>
-    <div class="content-container container">
-        <div class="content">
-            <h1 class="mb-5">Take a look at what I've been working on!</h1>
-
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <img src="images/weather app.png" style="width: 400px;" class="img-fluid mb-3 rounded" alt="" />
-                    <h3>Weather Forecast Project</h3>
-                    <p>Built with HTML, vanilla CSS and JavaScript</p>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <img src="images/simple calculator.jpeg" style="width:400px" class="img-fluid mb-3 rounded" alt="" />
-                    <h3>Simple calculator Project</h3>
-                    <p >
-                        Built with HTML, CSS and JavaScript
-                    </p>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <img src="images/job application form.png" style="width: 400px" class="img-fluid mb-3 rounded" alt="" />
-                    <h3 >Job application form</h3>
-                    <p>
-                        Built with HTML, CSS with React
-                    </p>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <img src="images/translation.png" class="img-fluid mb-3 rounded" alt="" />
-                    <h3 >Translation App</h3>
-                    <p>
-                        Built with HTML, CSS with React
-                    </p>
-                </div>
+   
+                <!-- </div>
             </div>
         </div>
     </div>
 </body>
 
-</html>
+</html> -->
