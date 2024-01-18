@@ -6,7 +6,8 @@
   }
   
   body {
-    font-family: var(--default-font-family);
+    font-family: var(--default-font-family)
+   
   }
   
   h1,
@@ -15,13 +16,14 @@
   h4,
   h5,
   h6 {
-    color: black;
+    color:white;
     font-family: var(--heading-font-family);
     font-weight: bold;
+
   }
   
   h1 {
-    font-size: 96px;
+    font-size: 50px;
     line-height: 1.5;
   }
   
@@ -38,9 +40,22 @@
     font-size: 16px;
     line-height: 30px;
   }
+
+  .container {
+    background: var(--secondary-color);
+   
+
+  }
   
+ 
+
+  .about-section-content{
+    text-align: center;
+  }
+
   .hero {
     background: var(--secondary-color);
+    background-color: #272142;
     text-align: center;
     padding: 80px 20px;
   }
@@ -57,11 +72,12 @@
     font-weight: normal;
     line-height: 1.5;
     font-size: 24px;
+    
   }
   
-  .content-container {
-    padding: 60px 20px;
-  }
+  
+    
+  
   
   .content h1 {
     font-size: 64px;
@@ -149,6 +165,7 @@
     background: var(--secondary-color);
     padding: 30px 120px;
     border-radius: 10px;
+    text-align: center;
   }
   
   footer .contact-box p {
