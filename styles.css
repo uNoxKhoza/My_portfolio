@@ -111,7 +111,7 @@
   .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
-    color: white;
+    color: #ffffff;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
